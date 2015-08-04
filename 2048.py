@@ -165,7 +165,6 @@ class TwentyFortyEight:
             if direction == 1 or direction == 2:
                 # this list contains the indices of initial tiles for the up or down direction
                 before_merge_list = traverse_grid(indices,OFFSETS[direction],self.get_grid_height())
-  
             elif direction == 3 or direction == 4:
                 # this list contains the indices of initial tiles for the up or down direction
                 before_merge_list = traverse_grid(indices,OFFSETS[direction],self.get_grid_width())
